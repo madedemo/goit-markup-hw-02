@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap');
+
+
+
 body {
     font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
     letter-spacing: 0.32px;
     cursor: pointer;
 }
@@ -18,7 +23,6 @@ ul {
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 21px;
     letter-spacing: 0.54px;
     text-transform: uppercase;
     text-decoration: none;
@@ -30,7 +34,6 @@ ul {
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 21px;
     letter-spacing: 0.54px;
     text-transform: uppercase;
     text-decoration: none;
@@ -53,15 +56,12 @@ ul {
 
 .hero-title {
     color: var(--white, #FFF);
-    text-align: center;
     font-size: 56px;
     font-weight: 700;
-    line-height: 60px;
     letter-spacing: 1.12px;
 }
 
 .hero-button {
-    text-align: center;
     border-radius: 4px;
     background: var(--iris, #4D5AE5);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -91,10 +91,8 @@ ul {
 
 .teamates {
     color: var(--navyblue, #2E2F42);
-    text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
@@ -113,10 +111,8 @@ ul {
 
 .projects-portfolio {
     color: var(--navyblue, #2E2F42);
-    text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
@@ -143,7 +139,6 @@ ul {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
     letter-spacing: 0.32px;
 }
 
@@ -153,7 +148,6 @@ footer .logo-white {
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 21px;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
