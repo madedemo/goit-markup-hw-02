@@ -76,6 +76,7 @@ body {
 }
 
 .hero-button {
+    font-family: "Roboto", sans-serif;
     color: var(--white, #FFF);
     background: var(--iris, #4D5AE5);
     font-size: 16px;
@@ -122,16 +123,25 @@ body {
     text-align: center;
 }
 
+.team-background-profile {
+    background-color: #FFFFFF;
+}
+
 .team-member {
     color: var(--navyblue, #2E2F42);
     font-size: 20px;
+    font-style: normal;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 24px;
     letter-spacing: 0.4px;
 }
 
 .team-text {
     color: var(--slate, #434455);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
     letter-spacing: 0.32px;
 }
 
