@@ -46,6 +46,10 @@ body {
     color: #404bbf;
 }
 
+.header-address {
+    font-style: normal;
+}
+
 .address-link {
     color: #434455;
     font-size: 16px;
@@ -78,17 +82,16 @@ body {
 .hero-button {
     color: var(--white, #FFF);
     background: var(--iris, #4D5AE5);
-    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
-    cursor: pointer;
 }
 
 .hero-button:hover, .hero-button:focus {
     background-color: #404BBF;
+    cursor: pointer;
 }
 
 
@@ -131,7 +134,7 @@ body {
     letter-spacing: 0.4px;
 }
 
-.team-text {
+.team-member {
     color: var(--slate, #434455);
     letter-spacing: 0.32px;
 }
