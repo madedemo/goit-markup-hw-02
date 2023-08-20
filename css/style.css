@@ -9,36 +9,28 @@ body {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
+    line-height: 1.5;
     letter-spacing: 0.32px;
     cursor: pointer;
 }
 
-ul {
-    list-style-type: none;
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 .logo-blue {
     color: var(--iris, #4D5AE5);
-    font-family: Raleway;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 21px;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-    text-decoration: none;
 }
 
 .logo-black {
     color: var(--navyblue, #2E2F42);
-    font-family: Raleway;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 21px;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-    text-decoration: none;
 }
 
 .link {
