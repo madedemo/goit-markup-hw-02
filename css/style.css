@@ -11,7 +11,6 @@ body {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    cursor: pointer;
 }
 
 .logo {
@@ -26,11 +25,11 @@ body {
     color: #4d5ae5;
 }
 
-.logo .logo-black {
+.logo .logo-studio {
     color: var(--navyblue, #2E2F42);
 }
 
-.link {
+.nav-page {
     color: var(--navyblue, #2E2F42);
     font-size: 16px;
     font-style: normal;
@@ -40,11 +39,12 @@ body {
     text-decoration: none;
 }
 
-.link:hover  link:focus {
+.nav-page .link:hover,
+.nav-page .link:focus {
     color: #404bbf;
 }
 
-.address-link {
+.address-page {
     color: var(--slate, #434455);
     font-size: 16px;
     font-style: normal;
@@ -52,6 +52,11 @@ body {
     line-height: 1.5;
     letter-spacing: 0.32px;
     text-decoration: none;
+}
+
+.address-page .address-link:hover,
+.address-page .address-link:focus {
+    color: #404bbf;
 }
 
 .hero-section {
@@ -62,19 +67,31 @@ body {
     color: var(--white, #FFF);
     font-size: 56px;
     font-weight: 700;
+    line-height: 1.07;
     letter-spacing: 1.12px;
+    text-align: center;
 }
 
 .hero-button {
+    color: #ffffff;
     border-radius: 4px;
     background: var(--iris, #4D5AE5);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
 }
 
-.hero-order {
-    color: var(--white, #FFF);
+.hero-button .hero-button:hover,
+.hero-button .hero-button:focus {
+    color: #404BBF;
+}
+
+.hero-button-text {
+    font-size: 16px;
+    font-style: normal;
     font-weight: 500;
+    line-height: 1.5;
     letter-spacing: 0.64px;
+
 }
 
 .approach {
@@ -97,8 +114,10 @@ body {
     color: var(--navyblue, #2E2F42);
     font-size: 36px;
     font-weight: 700;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    text-align: center;
 }
 
 .teamates-name {
@@ -146,7 +165,7 @@ body {
     letter-spacing: 0.32px;
 }
 
-footer .logo-white {
+footer .logo-studio-footer {
     color: var(--cloud, #F4F4FD);
     font-family: Raleway;
     font-size: 18px;
