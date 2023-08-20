@@ -46,14 +46,9 @@ body {
     color: #404bbf;
 }
 
-.header-address {
-    font-style: normal;
-}
-
 .address-link {
     color: #434455;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
@@ -126,7 +121,7 @@ body {
     text-align: center;
 }
 
-.team-name {
+.team-member {
     color: var(--navyblue, #2E2F42);
     font-size: 20px;
     font-weight: 500;
@@ -134,7 +129,7 @@ body {
     letter-spacing: 0.4px;
 }
 
-.team-member {
+.team-text {
     color: var(--slate, #434455);
     letter-spacing: 0.32px;
 }
