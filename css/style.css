@@ -30,7 +30,7 @@ body {
 }
 
 .nav-page {
-    color: var(--navyblue, #2E2F42);
+    color: #2e2f42;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -39,8 +39,8 @@ body {
     text-decoration: none;
 }
 
-.nav-page .link-studio:hover,
-.nav-page .link-studio:focus {
+.nav-page .link .link-studio:hover,
+.nav-page .link .link-studio:focus {
     color: #404bbf;
 }
 
@@ -54,8 +54,12 @@ body {
     text-decoration: none;
 }
 
-.address-page .address-link:hover,
-.address-page .address-link:focus {
+.address-link {
+    color: #434455;
+    font-style: normal;
+}
+
+.address-link:hover, .address-link:focus {
     color: #404bbf;
 }
 
@@ -113,7 +117,7 @@ body {
     color: var(--navyblue, #2E2F42);
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1.1;
     letter-spacing: 0.72px;
     text-transform: capitalize;
     text-align: center;
