@@ -38,9 +38,8 @@ body {
     letter-spacing: 0.32px;
     text-decoration: none;
 }
-
-.link-studio:hover,
-.link-studio:focus {
+.link:hover,
+.link:focus {
     color: #404bbf;
 }
 
@@ -73,24 +72,19 @@ body {
 }
 
 .hero-button {
-    color: #ffffff;
+    color: var(--white, #FFF);
     background: var(--iris, #4D5AE5);
-    cursor: pointer;
-}
-
-.hero-button .hero-button:hover,
-.hero-button .hero-button:focus {
-    color: #404BBF;
-}
-
-.hero-button-text {
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
-
 }
+
+.hero-button:hover, .hero-button:focus {
+    color: #404BBF;
+}
+
 
 .approach-title {
     color: var(--navyblue, #2E2F42);
@@ -113,7 +107,7 @@ body {
     color: var(--navyblue, #2E2F42);
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
     text-align: center;
