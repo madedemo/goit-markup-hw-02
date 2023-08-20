@@ -29,7 +29,7 @@ body {
     color: var(--navyblue, #2E2F42);
 }
 
-.nav-page {
+.nav-page .link {
     color: #2e2f42;
     font-size: 16px;
     font-style: normal;
@@ -44,23 +44,20 @@ body {
     color: #404bbf;
 }
 
-.header-address {
+.header-address .address-link {
+    color: #434455;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.5;
+    line-height: 24px;
     letter-spacing: 0.32px;
-    text-decoration: none;
 }
 
-.address-link {
-    color: #434455;
-    font-style: normal;
-}
-
-.address-link:hover, .address-link:focus {
+.address-link:hover,
+.address-link:focus {
     color: #404bbf;
 }
+
 
 .hero-section {
     background: var(--navyblue, #2E2F42);
