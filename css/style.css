@@ -124,7 +124,6 @@ body {
 
 .team-member {
     color: var(--navyblue, #2E2F42);
-    background-color: #FFFFFF;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
