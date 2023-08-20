@@ -138,6 +138,7 @@ body {
 
 .projects-name {
     color: var(--navyblue, #2E2F42);
+    background-color: #FFFFFF;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -162,7 +163,7 @@ body {
     letter-spacing: 0.32px;
 }
 
-footer .logo-studio-footer {
+.logo-studio-footer {
     color: var(--cloud, #F4F4FD);
     font-family: Raleway;
     font-size: 18px;
